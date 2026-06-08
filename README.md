@@ -1,22 +1,22 @@
 <img src="icons/icon128.png" width="80" alt="Job Tracker">
 
-# Job Tracker — Save to Google Drive
+# Job Tracker - Save to Google Drive
 
 A Chrome extension that saves job applications directly to your Google Drive with one click. Auto-extracts job title, company, location, job type, and full job description from any job posting page.
 
 ## Features
 
 - Auto-extracts job details from LinkedIn, Indeed, Workday, Greenhouse, Lever, and more
-- Saves everything to your personal Google Drive — no servers, no databases
+- Saves everything to your personal Google Drive - no servers, no databases
 - Applications tab with search and sort
 - Click any logged application to open its Drive folder
 - Duplicate detection
 
 ## What gets saved
 
-- **Google Sheet** — one row per application with date, company, title, location, job type, URL, resume name, and Drive folder link
-- **Job Description.txt** — full job description saved as a text file
-- **Resume** — uploaded to `Job Application Files/{Company}/{Role}/`
+- **Google Sheet** - one row per application with date, company, title, location, job type, URL, resume name, and Drive folder link
+- **Job Description.txt** - full job description saved as a text file
+- **Resume** - uploaded to `Job Application Files/{Company}/{Role}/`
 
 ## Setup
 
@@ -31,7 +31,7 @@ A Chrome extension that saves job applications directly to your Google Drive wit
 
 ## Privacy
 
-All data saves directly to your personal Google Drive. We never see or touch your data. Only the `drive.file` scope is requested — the extension can only access files it created.
+All data saves directly to your personal Google Drive. We never see or touch your data. Only the `drive.file` scope is requested - the extension can only access files it created.
 
 ## Bug reports & feedback
 
@@ -39,4 +39,4 @@ Email: manjunathpopuri2@gmail.com
 
 ## License
 
-MIT License — © 2026 Manjunath Popuri
+MIT License - © 2026 Manjunath Popuri
