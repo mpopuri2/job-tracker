@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Job Tracker - Save to Google Drive",
+  "version": "1.0.0",
+  "description": "Save job applications to your Google Drive with one click. Captures title, company, location, job description, and resume automatically.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+    }
+  },
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "514327842606-5iq5pejnsbh3j8e8b195crkk6j8guk4g.apps.googleusercontent.com",
+    "scopes": [
+      "https://www.googleapis.com/auth/drive.file"
+    ]
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

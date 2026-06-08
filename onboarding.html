@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to Job Tracker</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0f172a; color: #e2e8f0; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 40px; }
+    .card { max-width: 560px; width: 100%; }
+    .logo { font-size: 48px; text-align: center; margin-bottom: 16px; }
+    h1 { font-size: 28px; text-align: center; color: #f1f5f9; margin-bottom: 8px; }
+    .sub { text-align: center; color: #64748b; font-size: 15px; margin-bottom: 40px; }
+    .steps { display: flex; flex-direction: column; gap: 16px; margin-bottom: 40px; }
+    .step { display: flex; gap: 16px; align-items: flex-start; background: #1e293b; border-radius: 12px; padding: 16px; }
+    .step-num { width: 32px; height: 32px; background: #1e3a5f; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 700; color: #60a5fa; font-size: 15px; flex-shrink: 0; }
+    .step-content h3 { font-size: 14px; color: #e2e8f0; margin-bottom: 4px; }
+    .step-content p { font-size: 13px; color: #64748b; line-height: 1.6; }
+    .step-content code { background: #0f172a; padding: 1px 5px; border-radius: 4px; font-size: 12px; color: #93c5fd; }
+    .privacy-box { background: #1e293b; border: 1px solid #22c55e30; border-radius: 12px; padding: 16px; margin-bottom: 32px; }
+    .privacy-box h3 { color: #4ade80; font-size: 13px; margin-bottom: 8px; }
+    .privacy-box p { font-size: 12px; color: #64748b; line-height: 1.7; }
+    .done-btn { display: block; width: 100%; padding: 14px; background: #16a34a; border: none; border-radius: 10px; color: white; font-size: 15px; font-weight: 600; cursor: pointer; text-align: center; }
+    .done-btn:hover { background: #15803d; }
+  </style>
+</head>
+<body>
+<div class="card">
+  <div class="logo">🎯</div>
+  <h1>Welcome to Job Tracker</h1>
+  <p class="sub">Save job applications to your Google Drive in one click</p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-content">
+        <h3>Pin to toolbar</h3>
+        <p>Click the puzzle 🧩 icon in Chrome's toolbar → find <strong>Job Tracker</strong> → click the 📌 pin icon to keep it visible.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-content">
+        <h3>Open any job posting</h3>
+        <p>Visit a job on LinkedIn, Indeed, Workday, Greenhouse, or any other site.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-content">
+        <h3>Click the Job Tracker icon in the toolbar</h3>
+        <p>The extension automatically extracts the job title, company, location, and full description.</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">4</div>
+      <div class="step-content">
+        <h3>Sign in with Google & log it</h3>
+        <p>Your data saves to <code>Job Application Files/</code> in your Google Drive — only you can see it.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="privacy-box">
+    <h3>🔒 Your data stays yours</h3>
+    <p>Everything saves directly to your personal Google Drive. We have zero access to your job data, resume files, or any information you enter. No servers, no databases — just your Drive.</p>
+  </div>
+
+  <p style="text-align:center;font-size:12px;color:#475569;margin-bottom:16px;">
+    Found a bug or have feedback? Email us at
+    <a href="mailto:manjunathpopuri2@gmail.com" style="color:#60a5fa;text-decoration:none;">manjunathpopuri2@gmail.com</a>
+  </p>
+  <button class="done-btn" id="doneBtn">Get Started →</button>
+<script src="onboarding.js"></script>
+</div>
+</body>
+</html>
